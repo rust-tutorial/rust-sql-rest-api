@@ -23,6 +23,10 @@ impl Book {
             //release: Utc.from_utc_date(&self.release).and_hms(0, 0, 0),
         }
     }
+
+    pub fn get_pk(self) -> String {
+        "serial_id".to_string()
+    }
 }
 
 impl Default for Book {

@@ -4,7 +4,6 @@ pub mod response;
 pub mod logger;
 pub mod ultil;
 pub mod threadpool;
-pub mod query;
 
 #[cfg(test)]
 mod tests {

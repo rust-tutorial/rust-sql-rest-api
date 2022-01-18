@@ -7,7 +7,7 @@ use std::str::FromStr;
 use async_trait::async_trait;
 use log::{info, trace, warn};
 use mysql::Error;
-use pkg::query::build_list;
+use crate::app::query::build_list;
 use pkg::response::json;
 use pkg::ultil::{parse_http_body, ParseBodyError};
 
