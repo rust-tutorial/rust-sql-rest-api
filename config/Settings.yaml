@@ -1,0 +1,4 @@
+app_name: "rust-mongo"
+port: 8080
+uri: "mysql://root:12345678@localhost:3306/rust"
+thread_capacity: 20
